@@ -14,6 +14,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/curtana/curtana-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Charger
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
