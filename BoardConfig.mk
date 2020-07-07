@@ -8,3 +8,6 @@
 -include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/curtana
+
+# Inherit proprietary blobs
+-include vendor/xiaomi/curtana/BoardConfigVendor.mk
