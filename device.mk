@@ -9,3 +9,7 @@ $(call inherit-product, device/xiaomi/sm6250-common/common.mk)
 
 # Inherit proprietary targets
 $(call inherit-product-if-exists, vendor/xiaomi/curtana/curtana-vendor.mk)
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
