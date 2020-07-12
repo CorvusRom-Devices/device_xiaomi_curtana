@@ -11,3 +11,6 @@ DEVICE_PATH := device/xiaomi/curtana
 
 # Inherit proprietary blobs
 -include vendor/xiaomi/curtana/BoardConfigVendor.mk
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := curtana
