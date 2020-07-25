@@ -11,6 +11,7 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 DU_BUILD_TYPE := OFFICIAL
+USE_GAPPS := true
 
 PRODUCT_NAME := du_curtana
 PRODUCT_DEVICE := curtana
