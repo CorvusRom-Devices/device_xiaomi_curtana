@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/curtana/device.mk)
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+DU_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := du_curtana
 PRODUCT_DEVICE := curtana
