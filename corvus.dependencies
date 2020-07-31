@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "CorvusRom-Devices/device_xiaomi_curtana",
+    "target_path": "device/xiaomi/curtana",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "CorvusRom-Devices/kernel_xiaomi_sm6250",
+    "target_path": "kernel/xiaomi/sm6250",
+    "branch": "ten",
+    "remote": "github" 
+  },
+  {
+    "repository": "CorvusRom-Devices/vendor_xiaomi_sm6250",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten",
+    "remote": "github"
+  },
+  {
+    "repository": "CorvusRom-Devices/device_xiaomi_sm6250-common",
+    "target_path": "device/xiaomi/sm6250-common",
+    "branch": "ten",
+    "remote": "github"
+  }
+]
